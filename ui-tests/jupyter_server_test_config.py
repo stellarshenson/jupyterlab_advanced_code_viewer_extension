@@ -24,5 +24,10 @@ c.LabApp.user_settings_dir = mkdtemp(prefix="galata-settings-")
 # root outside the home directory and leaves every fixture behind.
 c.FileContentsManager.delete_to_trash = False
 
+# The GalaxaHub message of the day opens its own tab at lab start, which keeps
+# the Launcher inactive and makes every Galata test time out in page.goto().
+# traitlets ignores the line where that extension is not installed, as in CI.
+c.GalaxaHubMotd.open_on_start = False
+
 # Uncomment to set server log level to debug level
 # c.ServerApp.log_level = "DEBUG"

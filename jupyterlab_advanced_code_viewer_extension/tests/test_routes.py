@@ -18,7 +18,7 @@ async def test_hello(jp_fetch):
     }
 
 
-async def test_hello_refuses_an_unauthenticated_request(jp_fetch, jp_serverapp):
+async def test_hello_refuses_an_unauthenticated_request(jp_fetch):
     # jp_fetch adds the token to each request; the header is sent empty here,
     # so the route answers as it would to a browser without a session.
     with pytest.raises(HTTPClientError) as refused:
