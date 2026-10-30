@@ -21,7 +21,7 @@ test('should emit an activation console message', async ({ page }) => {
     logs.filter(
       s =>
         s ===
-        'JupyterLab extension jupyterlab_advanced_code_viewer_extension is activated!'
+        'JupyterLab extension @stellarshenson/jupyterlab-advanced-code-viewer-extension is activated!'
     )
   ).toHaveLength(1);
 });

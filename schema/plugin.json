@@ -1,7 +1,7 @@
 {
   "jupyter.lab.shortcuts": [],
-  "title": "jupyterlab_advanced_code_viewer_extension",
-  "description": "jupyterlab_advanced_code_viewer_extension settings.",
+  "title": "@stellarshenson/jupyterlab-advanced-code-viewer-extension",
+  "description": "@stellarshenson/jupyterlab-advanced-code-viewer-extension settings.",
   "type": "object",
   "properties": {},
   "additionalProperties": false

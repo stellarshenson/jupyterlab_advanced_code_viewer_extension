@@ -8,10 +8,10 @@ import { ISettingRegistry } from '@jupyterlab/settingregistry';
 import { requestAPI } from './request';
 
 /**
- * Initialization data for the jupyterlab_advanced_code_viewer_extension extension.
+ * Initialization data for the @stellarshenson/jupyterlab-advanced-code-viewer-extension extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-  id: 'jupyterlab_advanced_code_viewer_extension:plugin',
+  id: '@stellarshenson/jupyterlab-advanced-code-viewer-extension:plugin',
   description:
     'Follow a notebook or a source file while an AI agent writes it, see each change in the editor as you work, and mark and comment on code with notes stored in the file',
   autoStart: true,
@@ -21,7 +21,7 @@ const plugin: JupyterFrontEndPlugin<void> = {
     settingRegistry: ISettingRegistry | null
   ) => {
     console.log(
-      'JupyterLab extension jupyterlab_advanced_code_viewer_extension is activated!'
+      'JupyterLab extension @stellarshenson/jupyterlab-advanced-code-viewer-extension is activated!'
     );
 
     if (settingRegistry) {
