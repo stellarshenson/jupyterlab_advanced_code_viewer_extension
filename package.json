@@ -1,6 +1,6 @@
 {
     "name": "@stellarshenson/jupyterlab-advanced-code-viewer-extension",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Follow a notebook or a source file while an AI agent writes it, see each change in the editor as you work, and mark and comment on code with notes stored in the file",
     "keywords": [
         "jupyter",
